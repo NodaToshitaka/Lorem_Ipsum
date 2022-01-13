@@ -55,6 +55,7 @@ nav {
 
 .mv-title {
   font-size: 64px;
+  font-weight: bold;
 }
 
 .mv-text {
@@ -74,12 +75,13 @@ nav {
   margin: 0 auto;
 }
 
-.pf-title,
 .pf-text {
   text-align: center;
 }
-.pf-title {
+.title {
   font-size: 32px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .border {
@@ -124,16 +126,10 @@ nav {
   margin: 0 auto;
 }
 
-.ft-title,
 .ft-text,
 .ft-box-icon,
-.ft-box-title,
-.ft-box-text {
+.ft-box-title {
   text-align: center;
-}
-
-.ft-title {
-  font-size: 32px;
 }
 
 .ft-text {
@@ -141,6 +137,9 @@ nav {
   margin: 30px auto;
 }
 
+.ft-body {
+  display: flex;
+}
 .ft-box {
   width: 320px;
   margin-right: 10px;
@@ -150,11 +149,140 @@ nav {
   margin-right: 0;
 }
 
+.ft-box-icon  i {
+  font-size: 60px;
+}
 .ft-box-title {
   margin: 10px auto;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .ft-box-text {
   font-size: 16px;
+}
+
+.profile {
+  background-color: #eceff1;
+  width: 100%;
+}
+
+.p-main {
+  width: 1024px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.p-text {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.p-body{
+  display: flex;
+}
+
+.user-icon {
+  width: 512px;
+  position: relative;
+}
+.p-body-main {
+  width: 512px;
+}
+
+.user-icon img {
+  size: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.p-body-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p-body-text:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.contact {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.ct-main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.ct-text {
+  font-size: 16px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.ct-body {
+  display: flex;
+}
+
+.ct-info,
+.ct-sns {
+  width: 400px;
+}
+
+.ct-aline-i {
+  width: 130px;
+  margin: 0 auto;;
+}
+
+.ct-aline-s {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.ct-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ct-info-mail {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #000;
+}
+
+.ct-icons {
+  display: flex;
+}
+
+.ct-icon {
+  margin-right: 20px;
+}
+
+.ct-icon:nth-child(3) {
+  margin-right: 0;
+}
+
+.ct-icon i {
+  font-size: 50px;
+}
+
+footer {
+  background-color: #ec715f;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fafafa;
 }
