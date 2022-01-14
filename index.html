@@ -7,33 +7,39 @@
     <title>Lorem Ipsum</title>
   </head>
   <header>
-
     <div class="header">
-      <img src="img/logo.png">
+      <a href= "#mv"><img src="img/logo.png"></a>
+      <span class="nav-toggle">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
       <nav class="nav">
         <ul class="menu-group">
-          <li class="menu-item"><a href="#">Portfolio</a></li>
-          <li class="menu-item"><a href="#">Feature</a></li>
-          <li class="menu-item"><a href="#">Profile</a></li>
-          <li class="menu-item"><a href="#">Contact</a></li>
+          <li class="menu-item"><a href="#pf">Portfolio</a></li>
+          <li class="menu-item"><a href="#ft">Feature</a></li>
+          <li class="menu-item"><a href="#p">Profile</a></li>
+          <li class="menu-item"><a href="#ct">Contact</a></li>
         </ul>
       </nav>
     </div>
+    <script src="script.js"></script>
+    <script src="jquery.min.js"></script>
   </header>
   <body>
     <div class="main-visual">
-      <div class="mv-title">Lorem Ipsum</div>
+      <section  id="mv" class="mv-title">Lorem Ipsum</section>
       <div class="mv-text">simply dummy text of the printing</div>
     </div>
 
     <div class="portfolio">
       <div class="pf-main">
         <div class="pf-top">
-          <div class="title">Portfolio</div>
+          <section id="pf" class="title">Portfolio</section>
           <div class="border"></div>
           <div class="pf-text">
             It is a long established fact that a render will be distracted by the readable <br>
-            content of a page when looking at its layout <br>
+            content of a page when looking at its layout. <br class="sp-none">
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
           </div>
         </div>
@@ -51,7 +57,7 @@
     <div class="feature">
       <div class="ft-main">
         <div class="ft-top">
-          <div class="title">Feature</div>
+          <section id="ft" class="title">Feature</section>
           <div class="border"></div>
           <div class="ft-text">
             It is a long established fact that a reader will be distracted by the readable<br>
@@ -109,7 +115,7 @@
     <div class="profile">
       <div class="p-main">
         <div class="p-top">
-          <div class="title">Profile</div>
+          <section id="p" class="title">Profile</section>
           <div class="border"></div>
           <div class="p-text">
             It is a long established fact that a reader will be distracted by the readable <br>
@@ -145,7 +151,7 @@
     <div class="contact">
       <div class="ct-main">
         <div class="ct-top">
-          <div class="title">Contact</div>
+          <section id="ct" class="title">Contact</section>
           <div class="border"></div>
           <div class="ct-text">
             It is a long established fact that a reader will be distracted by the readable<br>
